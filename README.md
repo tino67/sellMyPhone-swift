@@ -8,8 +8,8 @@ Using swift, cocoaPods, DeviceKit and Firebase (not included in this demo), with
 
 <table>
 <tr>
-<td><img src="http://quentin-noblet.com/ressources/sellMyPhone1Low.gif"/></td>
-<td><img src="http://quentin-noblet.com/ressources/sellMyPhone2Low.gif"/></td>
+<td><img src="https://github.com/tino67/sellMyPhone-swift/blob/master/sellMyPhone1Low.gif"/></td>
+<td><img src="https://github.com/tino67/sellMyPhone-swift/blob/master/sellMyPhone2Low.gif"/></td>
 </tr>
 </table>
 
