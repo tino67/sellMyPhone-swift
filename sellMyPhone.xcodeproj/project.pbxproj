@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21178A872063C76700963D49 /* sellMyPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F030F420455643004C359D /* sellMyPhoneTests.swift */; };
+		21178A882063C76C00963D49 /* sellMyPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F030FF20455644004C359D /* sellMyPhoneUITests.swift */; };
+		2123E8FA2060101B00D5E209 /* PriceResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2123E8F92060101B00D5E209 /* PriceResultViewController.swift */; };
+		2123E8FC2060121D00D5E209 /* PriceResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2123E8FB2060121D00D5E209 /* PriceResultView.swift */; };
+		2123E8FE2061BCCE00D5E209 /* CheckOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2123E8FD2061BCCE00D5E209 /* CheckOutViewController.swift */; };
+		217AF92420582B5300AEB43B /* ScreenUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217AF92320582B5300AEB43B /* ScreenUpViewController.swift */; };
+		217AF926205831B200AEB43B /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217AF925205831B200AEB43B /* ColorView.swift */; };
+		217AF92A2058469A00AEB43B /* screenColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217AF9292058469A00AEB43B /* screenColorViewController.swift */; };
+		217AF92C205A8C0400AEB43B /* DeviceQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217AF92B205A8C0400AEB43B /* DeviceQuestion.swift */; };
+		217AF92E205A8DEE00AEB43B /* QuestionsManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217AF92D205A8DEE00AEB43B /* QuestionsManagement.swift */; };
+		217AF932205AD97200AEB43B /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217AF931205AD97200AEB43B /* QuestionViewController.swift */; };
+		217AF934205BFA2A00AEB43B /* AnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217AF933205BFA2A00AEB43B /* AnswerTableViewCell.swift */; };
+		2185F44F2056E48600A8CB40 /* TouchIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2185F44E2056E48600A8CB40 /* TouchIDViewController.swift */; };
+		2185F4512057D8DD00A8CB40 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2185F4502057D8DD00A8CB40 /* Services.swift */; };
+		2185F45320580E1400A8CB40 /* MultiTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2185F45220580E1400A8CB40 /* MultiTouchViewController.swift */; };
+		2185F4552058173700A8CB40 /* ScreenBottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2185F4542058173700A8CB40 /* ScreenBottomViewController.swift */; };
+		21F030E020455643004C359D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F030DF20455643004C359D /* AppDelegate.swift */; };
+		21F030E520455643004C359D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F030E320455643004C359D /* Main.storyboard */; };
+		21F030E720455643004C359D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F030E620455643004C359D /* Assets.xcassets */; };
+		21F030EA20455643004C359D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F030E820455643004C359D /* LaunchScreen.storyboard */; };
+		21F03111204558BA004C359D /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F03110204558BA004C359D /* Device.swift */; };
+		21F0311320456FF0004C359D /* DeviceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F0311220456FF0004C359D /* DeviceState.swift */; };
+		21F0311520457479004C359D /* TestResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F0311420457479004C359D /* TestResultView.swift */; };
+		21F0311720457DE2004C359D /* TestResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F0311620457DE2004C359D /* TestResultViewController.swift */; };
+		21F031192045C7F3004C359D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F031182045C7F3004C359D /* APIManager.swift */; };
+		21F0311B2046C253004C359D /* DeviceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F0311A2046C253004C359D /* DeviceTest.swift */; };
+		21F0311D2046EA40004C359D /* DeviceAnalyseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F0311C2046EA40004C359D /* DeviceAnalyseViewController.swift */; };
+		21F0311F2046EB42004C359D /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F0311E2046EB42004C359D /* LoadingView.swift */; };
+		21F760A0204EABFA00FB12C8 /* SecondaryActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F7609F204EABFA00FB12C8 /* SecondaryActionButton.swift */; };
+		21F760A2204EAE6600FB12C8 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F760A1204EAE6600FB12C8 /* GlobalVariables.swift */; };
+		21F760A4204EDDC000FB12C8 /* DeviceListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F760A3204EDDC000FB12C8 /* DeviceListManager.swift */; };
+		21F760A82056813300FB12C8 /* DeviceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F760A72056813300FB12C8 /* DeviceListViewController.swift */; };
+		21F760AA2056946800FB12C8 /* MainActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F760A92056946800FB12C8 /* MainActionButton.swift */; };
+		21F760AC2056951C00FB12C8 /* ExplanationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F760AB2056951C00FB12C8 /* ExplanationView.swift */; };
+		21F760AE2056C41A00FB12C8 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F760AD2056C41A00FB12C8 /* DeviceTableViewCell.swift */; };
+		AFE1675D6C69239C1FAA273C /* Pods_sellMyPhoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E1142301A70D9FA6857D7F /* Pods_sellMyPhoneTests.framework */; };
+		C0ADD304293289225E95360E /* Pods_sellMyPhoneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8CD9C96E2BA38E6F3E0280 /* Pods_sellMyPhoneUITests.framework */; };
+		C9DB93AE9E40875AF766D6FB /* Pods_sellMyPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DB399D86E13F902F47C0B0C /* Pods_sellMyPhone.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21F030F120455643004C359D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21F030D420455643004C359D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21F030DB20455643004C359D;
+			remoteInfo = eRecycle2;
+		};
+		21F030FC20455644004C359D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21F030D420455643004C359D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21F030DB20455643004C359D;
+			remoteInfo = eRecycle2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19339CC673D8F38F9F72A2D1 /* Pods-sellMyPhone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sellMyPhone.release.xcconfig"; path = "Pods/Target Support Files/Pods-sellMyPhone/Pods-sellMyPhone.release.xcconfig"; sourceTree = "<group>"; };
+		2123E8F92060101B00D5E209 /* PriceResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceResultViewController.swift; sourceTree = "<group>"; };
+		2123E8FB2060121D00D5E209 /* PriceResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceResultView.swift; sourceTree = "<group>"; };
+		2123E8FD2061BCCE00D5E209 /* CheckOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutViewController.swift; sourceTree = "<group>"; };
+		217AF92320582B5300AEB43B /* ScreenUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenUpViewController.swift; sourceTree = "<group>"; };
+		217AF925205831B200AEB43B /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		217AF9292058469A00AEB43B /* screenColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screenColorViewController.swift; sourceTree = "<group>"; };
+		217AF92B205A8C0400AEB43B /* DeviceQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceQuestion.swift; sourceTree = "<group>"; };
+		217AF92D205A8DEE00AEB43B /* QuestionsManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsManagement.swift; sourceTree = "<group>"; };
+		217AF931205AD97200AEB43B /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		217AF933205BFA2A00AEB43B /* AnswerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerTableViewCell.swift; sourceTree = "<group>"; };
+		2185F44E2056E48600A8CB40 /* TouchIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchIDViewController.swift; sourceTree = "<group>"; };
+		2185F4502057D8DD00A8CB40 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		2185F45220580E1400A8CB40 /* MultiTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTouchViewController.swift; sourceTree = "<group>"; };
+		2185F4542058173700A8CB40 /* ScreenBottomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenBottomViewController.swift; sourceTree = "<group>"; };
+		21F030DC20455643004C359D /* sellMyPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sellMyPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F030DF20455643004C359D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21F030E420455643004C359D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21F030E620455643004C359D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21F030E920455643004C359D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21F030EB20455643004C359D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F030F020455643004C359D /* sellMyPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sellMyPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F030F420455643004C359D /* sellMyPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sellMyPhoneTests.swift; sourceTree = "<group>"; };
+		21F030F620455643004C359D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F030FB20455644004C359D /* sellMyPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sellMyPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F030FF20455644004C359D /* sellMyPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sellMyPhoneUITests.swift; sourceTree = "<group>"; };
+		21F0310120455644004C359D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F03110204558BA004C359D /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		21F0311220456FF0004C359D /* DeviceState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceState.swift; sourceTree = "<group>"; };
+		21F0311420457479004C359D /* TestResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultView.swift; sourceTree = "<group>"; };
+		21F0311620457DE2004C359D /* TestResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultViewController.swift; sourceTree = "<group>"; };
+		21F031182045C7F3004C359D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		21F0311A2046C253004C359D /* DeviceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTest.swift; sourceTree = "<group>"; };
+		21F0311C2046EA40004C359D /* DeviceAnalyseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAnalyseViewController.swift; sourceTree = "<group>"; };
+		21F0311E2046EB42004C359D /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		21F7609F204EABFA00FB12C8 /* SecondaryActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryActionButton.swift; sourceTree = "<group>"; };
+		21F760A1204EAE6600FB12C8 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		21F760A3204EDDC000FB12C8 /* DeviceListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListManager.swift; sourceTree = "<group>"; };
+		21F760A72056813300FB12C8 /* DeviceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListViewController.swift; sourceTree = "<group>"; };
+		21F760A92056946800FB12C8 /* MainActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActionButton.swift; sourceTree = "<group>"; };
+		21F760AB2056951C00FB12C8 /* ExplanationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationView.swift; sourceTree = "<group>"; };
+		21F760AD2056C41A00FB12C8 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		37DFC2CFE563AF5F0F3AB5A1 /* Pods-sellMyPhoneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sellMyPhoneUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sellMyPhoneUITests/Pods-sellMyPhoneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		38E1142301A70D9FA6857D7F /* Pods_sellMyPhoneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sellMyPhoneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		475E9CC7E7CB615379A5E639 /* Pods-sellMyPhoneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sellMyPhoneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sellMyPhoneTests/Pods-sellMyPhoneTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E3B1D9407F46FF954EF8535 /* Pods-sellMyPhone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sellMyPhone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sellMyPhone/Pods-sellMyPhone.debug.xcconfig"; sourceTree = "<group>"; };
+		7DB399D86E13F902F47C0B0C /* Pods_sellMyPhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sellMyPhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D2BE47E62948F23FBE7046 /* Pods-sellMyPhoneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sellMyPhoneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sellMyPhoneTests/Pods-sellMyPhoneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E68FE3EAD6968F553737106D /* Pods-sellMyPhoneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sellMyPhoneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sellMyPhoneUITests/Pods-sellMyPhoneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF8CD9C96E2BA38E6F3E0280 /* Pods_sellMyPhoneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sellMyPhoneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21F030D920455643004C359D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DB93AE9E40875AF766D6FB /* Pods_sellMyPhone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F030ED20455643004C359D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE1675D6C69239C1FAA273C /* Pods_sellMyPhoneTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F030F820455644004C359D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0ADD304293289225E95360E /* Pods_sellMyPhoneUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21F030D320455643004C359D = {
+			isa = PBXGroup;
+			children = (
+				21F030DE20455643004C359D /* sellMyPhone */,
+				21F030F320455643004C359D /* sellMyPhoneTests */,
+				21F030FE20455644004C359D /* sellMyPhoneUITests */,
+				21F030DD20455643004C359D /* Products */,
+				936B40D4100DD5325F387DC6 /* Pods */,
+				E1594DCCC278412751910A94 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21F030DD20455643004C359D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21F030DC20455643004C359D /* sellMyPhone.app */,
+				21F030F020455643004C359D /* sellMyPhoneTests.xctest */,
+				21F030FB20455644004C359D /* sellMyPhoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21F030DE20455643004C359D /* sellMyPhone */ = {
+			isa = PBXGroup;
+			children = (
+				21F760A1204EAE6600FB12C8 /* GlobalVariables.swift */,
+				2185F4502057D8DD00A8CB40 /* Services.swift */,
+				21F0310F20455880004C359D /* Controller */,
+				21F0310E20455877004C359D /* View */,
+				21F0310D2045586E004C359D /* Model */,
+				21F030DF20455643004C359D /* AppDelegate.swift */,
+				21F030E620455643004C359D /* Assets.xcassets */,
+				21F030EB20455643004C359D /* Info.plist */,
+			);
+			path = sellMyPhone;
+			sourceTree = "<group>";
+		};
+		21F030F320455643004C359D /* sellMyPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				21F030F420455643004C359D /* sellMyPhoneTests.swift */,
+				21F030F620455643004C359D /* Info.plist */,
+			);
+			path = sellMyPhoneTests;
+			sourceTree = "<group>";
+		};
+		21F030FE20455644004C359D /* sellMyPhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21F030FF20455644004C359D /* sellMyPhoneUITests.swift */,
+				21F0310120455644004C359D /* Info.plist */,
+			);
+			path = sellMyPhoneUITests;
+			sourceTree = "<group>";
+		};
+		21F0310D2045586E004C359D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21F031182045C7F3004C359D /* APIManager.swift */,
+				21F03110204558BA004C359D /* Device.swift */,
+				21F0311220456FF0004C359D /* DeviceState.swift */,
+				21F0311A2046C253004C359D /* DeviceTest.swift */,
+				21F760A3204EDDC000FB12C8 /* DeviceListManager.swift */,
+				217AF92B205A8C0400AEB43B /* DeviceQuestion.swift */,
+				217AF92D205A8DEE00AEB43B /* QuestionsManagement.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		21F0310E20455877004C359D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21F030E820455643004C359D /* LaunchScreen.storyboard */,
+				21F030E320455643004C359D /* Main.storyboard */,
+				21F0311420457479004C359D /* TestResultView.swift */,
+				21F0311E2046EB42004C359D /* LoadingView.swift */,
+				21F7609F204EABFA00FB12C8 /* SecondaryActionButton.swift */,
+				21F760A92056946800FB12C8 /* MainActionButton.swift */,
+				21F760AB2056951C00FB12C8 /* ExplanationView.swift */,
+				21F760AD2056C41A00FB12C8 /* DeviceTableViewCell.swift */,
+				217AF925205831B200AEB43B /* ColorView.swift */,
+				217AF933205BFA2A00AEB43B /* AnswerTableViewCell.swift */,
+				2123E8FB2060121D00D5E209 /* PriceResultView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21F0310F20455880004C359D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				21F0311C2046EA40004C359D /* DeviceAnalyseViewController.swift */,
+				21F760A72056813300FB12C8 /* DeviceListViewController.swift */,
+				21F0311620457DE2004C359D /* TestResultViewController.swift */,
+				2185F44E2056E48600A8CB40 /* TouchIDViewController.swift */,
+				2185F45220580E1400A8CB40 /* MultiTouchViewController.swift */,
+				2185F4542058173700A8CB40 /* ScreenBottomViewController.swift */,
+				217AF92320582B5300AEB43B /* ScreenUpViewController.swift */,
+				217AF9292058469A00AEB43B /* screenColorViewController.swift */,
+				217AF931205AD97200AEB43B /* QuestionViewController.swift */,
+				2123E8F92060101B00D5E209 /* PriceResultViewController.swift */,
+				2123E8FD2061BCCE00D5E209 /* CheckOutViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		936B40D4100DD5325F387DC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E3B1D9407F46FF954EF8535 /* Pods-sellMyPhone.debug.xcconfig */,
+				19339CC673D8F38F9F72A2D1 /* Pods-sellMyPhone.release.xcconfig */,
+				B3D2BE47E62948F23FBE7046 /* Pods-sellMyPhoneTests.debug.xcconfig */,
+				475E9CC7E7CB615379A5E639 /* Pods-sellMyPhoneTests.release.xcconfig */,
+				37DFC2CFE563AF5F0F3AB5A1 /* Pods-sellMyPhoneUITests.debug.xcconfig */,
+				E68FE3EAD6968F553737106D /* Pods-sellMyPhoneUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1594DCCC278412751910A94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DB399D86E13F902F47C0B0C /* Pods_sellMyPhone.framework */,
+				38E1142301A70D9FA6857D7F /* Pods_sellMyPhoneTests.framework */,
+				FF8CD9C96E2BA38E6F3E0280 /* Pods_sellMyPhoneUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21F030DB20455643004C359D /* sellMyPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F0310420455644004C359D /* Build configuration list for PBXNativeTarget "sellMyPhone" */;
+			buildPhases = (
+				BBE8F36655B12CF43D14E582 /* [CP] Check Pods Manifest.lock */,
+				21F030D820455643004C359D /* Sources */,
+				21F030D920455643004C359D /* Frameworks */,
+				21F030DA20455643004C359D /* Resources */,
+				463D680FFFA7C24BE8C31670 /* [CP] Embed Pods Frameworks */,
+				67737BCB65722B6C72BD8C9D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sellMyPhone;
+			productName = eRecycle2;
+			productReference = 21F030DC20455643004C359D /* sellMyPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21F030EF20455643004C359D /* sellMyPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F0310720455644004C359D /* Build configuration list for PBXNativeTarget "sellMyPhoneTests" */;
+			buildPhases = (
+				2120A2FE2CCE948E777D505B /* [CP] Check Pods Manifest.lock */,
+				21F030EC20455643004C359D /* Sources */,
+				21F030ED20455643004C359D /* Frameworks */,
+				21F030EE20455643004C359D /* Resources */,
+				57FF0461AE2A1AF565B51769 /* [CP] Embed Pods Frameworks */,
+				52196F1B0316532DDFEEB89B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21F030F220455643004C359D /* PBXTargetDependency */,
+			);
+			name = sellMyPhoneTests;
+			productName = eRecycle2Tests;
+			productReference = 21F030F020455643004C359D /* sellMyPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21F030FA20455644004C359D /* sellMyPhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F0310A20455644004C359D /* Build configuration list for PBXNativeTarget "sellMyPhoneUITests" */;
+			buildPhases = (
+				B7E5053F7BF7F61B7216F445 /* [CP] Check Pods Manifest.lock */,
+				21F030F720455644004C359D /* Sources */,
+				21F030F820455644004C359D /* Frameworks */,
+				21F030F920455644004C359D /* Resources */,
+				C11A120BA19C70A7E75A87F4 /* [CP] Embed Pods Frameworks */,
+				E03349CC664F8DE925C69CFC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21F030FD20455644004C359D /* PBXTargetDependency */,
+			);
+			name = sellMyPhoneUITests;
+			productName = eRecycle2UITests;
+			productReference = 21F030FB20455644004C359D /* sellMyPhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21F030D420455643004C359D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Quentin Noblet";
+				TargetAttributes = {
+					21F030DB20455643004C359D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					21F030EF20455643004C359D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21F030DB20455643004C359D;
+					};
+					21F030FA20455644004C359D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21F030DB20455643004C359D;
+					};
+				};
+			};
+			buildConfigurationList = 21F030D720455643004C359D /* Build configuration list for PBXProject "sellMyPhone" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21F030D320455643004C359D;
+			productRefGroup = 21F030DD20455643004C359D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21F030DB20455643004C359D /* sellMyPhone */,
+				21F030EF20455643004C359D /* sellMyPhoneTests */,
+				21F030FA20455644004C359D /* sellMyPhoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21F030DA20455643004C359D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F030EA20455643004C359D /* LaunchScreen.storyboard in Resources */,
+				21F030E720455643004C359D /* Assets.xcassets in Resources */,
+				21F030E520455643004C359D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F030EE20455643004C359D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F030F920455644004C359D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2120A2FE2CCE948E777D505B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		463D680FFFA7C24BE8C31670 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sellMyPhone/Pods-sellMyPhone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52196F1B0316532DDFEEB89B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sellMyPhoneTests/Pods-sellMyPhoneTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57FF0461AE2A1AF565B51769 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sellMyPhoneTests/Pods-sellMyPhoneTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67737BCB65722B6C72BD8C9D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sellMyPhone/Pods-sellMyPhone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7E5053F7BF7F61B7216F445 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBE8F36655B12CF43D14E582 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C11A120BA19C70A7E75A87F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sellMyPhoneUITests/Pods-sellMyPhoneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E03349CC664F8DE925C69CFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sellMyPhoneUITests/Pods-sellMyPhoneUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21F030D820455643004C359D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217AF92C205A8C0400AEB43B /* DeviceQuestion.swift in Sources */,
+				21F03111204558BA004C359D /* Device.swift in Sources */,
+				2123E8FA2060101B00D5E209 /* PriceResultViewController.swift in Sources */,
+				2185F44F2056E48600A8CB40 /* TouchIDViewController.swift in Sources */,
+				21F0311320456FF0004C359D /* DeviceState.swift in Sources */,
+				2123E8FC2060121D00D5E209 /* PriceResultView.swift in Sources */,
+				21F760A4204EDDC000FB12C8 /* DeviceListManager.swift in Sources */,
+				21F760A0204EABFA00FB12C8 /* SecondaryActionButton.swift in Sources */,
+				217AF92E205A8DEE00AEB43B /* QuestionsManagement.swift in Sources */,
+				21F760AA2056946800FB12C8 /* MainActionButton.swift in Sources */,
+				2185F4552058173700A8CB40 /* ScreenBottomViewController.swift in Sources */,
+				217AF926205831B200AEB43B /* ColorView.swift in Sources */,
+				21F0311D2046EA40004C359D /* DeviceAnalyseViewController.swift in Sources */,
+				21F0311F2046EB42004C359D /* LoadingView.swift in Sources */,
+				21F760A82056813300FB12C8 /* DeviceListViewController.swift in Sources */,
+				21F760A2204EAE6600FB12C8 /* GlobalVariables.swift in Sources */,
+				217AF92A2058469A00AEB43B /* screenColorViewController.swift in Sources */,
+				21F760AE2056C41A00FB12C8 /* DeviceTableViewCell.swift in Sources */,
+				217AF932205AD97200AEB43B /* QuestionViewController.swift in Sources */,
+				217AF92420582B5300AEB43B /* ScreenUpViewController.swift in Sources */,
+				21F0311B2046C253004C359D /* DeviceTest.swift in Sources */,
+				2185F4512057D8DD00A8CB40 /* Services.swift in Sources */,
+				21F031192045C7F3004C359D /* APIManager.swift in Sources */,
+				21F0311720457DE2004C359D /* TestResultViewController.swift in Sources */,
+				217AF934205BFA2A00AEB43B /* AnswerTableViewCell.swift in Sources */,
+				21F030E020455643004C359D /* AppDelegate.swift in Sources */,
+				21F760AC2056951C00FB12C8 /* ExplanationView.swift in Sources */,
+				2185F45320580E1400A8CB40 /* MultiTouchViewController.swift in Sources */,
+				21F0311520457479004C359D /* TestResultView.swift in Sources */,
+				2123E8FE2061BCCE00D5E209 /* CheckOutViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F030EC20455643004C359D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21178A872063C76700963D49 /* sellMyPhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F030F720455644004C359D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21178A882063C76C00963D49 /* sellMyPhoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21F030F220455643004C359D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21F030DB20455643004C359D /* sellMyPhone */;
+			targetProxy = 21F030F120455643004C359D /* PBXContainerItemProxy */;
+		};
+		21F030FD20455644004C359D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21F030DB20455643004C359D /* sellMyPhone */;
+			targetProxy = 21F030FC20455644004C359D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21F030E320455643004C359D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F030E420455643004C359D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21F030E820455643004C359D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F030E920455643004C359D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21F0310220455644004C359D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21F0310320455644004C359D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21F0310520455644004C359D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E3B1D9407F46FF954EF8535 /* Pods-sellMyPhone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YQHDW2SBHX;
+				INFOPLIST_FILE = sellMyPhone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noblet.sellMyPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21F0310620455644004C359D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19339CC673D8F38F9F72A2D1 /* Pods-sellMyPhone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YQHDW2SBHX;
+				INFOPLIST_FILE = sellMyPhone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noblet.sellMyPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21F0310820455644004C359D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D2BE47E62948F23FBE7046 /* Pods-sellMyPhoneTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YQHDW2SBHX;
+				INFOPLIST_FILE = sellMyPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noblet.sellMyPhone.sellMyPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sellMyPhone.app/sellMyPhone";
+			};
+			name = Debug;
+		};
+		21F0310920455644004C359D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 475E9CC7E7CB615379A5E639 /* Pods-sellMyPhoneTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YQHDW2SBHX;
+				INFOPLIST_FILE = sellMyPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noblet.sellMyPhone.sellMyPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sellMyPhone.app/sellMyPhone";
+			};
+			name = Release;
+		};
+		21F0310B20455644004C359D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37DFC2CFE563AF5F0F3AB5A1 /* Pods-sellMyPhoneUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YQHDW2SBHX;
+				INFOPLIST_FILE = sellMyPhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noblet.sellMyPhone.sellMyPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sellMyPhone;
+			};
+			name = Debug;
+		};
+		21F0310C20455644004C359D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68FE3EAD6968F553737106D /* Pods-sellMyPhoneUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YQHDW2SBHX;
+				INFOPLIST_FILE = sellMyPhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.noblet.sellMyPhone.sellMyPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sellMyPhone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21F030D720455643004C359D /* Build configuration list for PBXProject "sellMyPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F0310220455644004C359D /* Debug */,
+				21F0310320455644004C359D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21F0310420455644004C359D /* Build configuration list for PBXNativeTarget "sellMyPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F0310520455644004C359D /* Debug */,
+				21F0310620455644004C359D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21F0310720455644004C359D /* Build configuration list for PBXNativeTarget "sellMyPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F0310820455644004C359D /* Debug */,
+				21F0310920455644004C359D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21F0310A20455644004C359D /* Build configuration list for PBXNativeTarget "sellMyPhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F0310B20455644004C359D /* Debug */,
+				21F0310C20455644004C359D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21F030D420455643004C359D /* Project object */;
+}
